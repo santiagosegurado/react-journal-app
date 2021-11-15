@@ -59,14 +59,14 @@ export const AppRouter = () => {
             <div>
                 <Switch>
                     <PublicRoute 
-                        path="/auth" 
+                        path="/react-journal-app/auth" 
                         component={ AuthRouter } 
                         loggedIn= { loggedIn }
                     />
 
                     <PrivateRoute 
                         exact 
-                        path="/" 
+                        path="/react-journal-app/" 
                         component={ JouernalScreen } 
                         loggedIn= { loggedIn }
                     />
