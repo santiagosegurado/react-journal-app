@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-journal-app/static/css/main.fd190fe9.chunk.css",
-    "main.js": "/react-journal-app/static/js/main.5c4d4dcd.chunk.js",
-    "main.js.map": "/react-journal-app/static/js/main.5c4d4dcd.chunk.js.map",
+    "main.js": "/react-journal-app/static/js/main.26cf747b.chunk.js",
+    "main.js.map": "/react-journal-app/static/js/main.26cf747b.chunk.js.map",
     "runtime-main.js": "/react-journal-app/static/js/runtime-main.535d5075.js",
     "runtime-main.js.map": "/react-journal-app/static/js/runtime-main.535d5075.js.map",
     "static/css/2.a1596f27.chunk.css": "/react-journal-app/static/css/2.a1596f27.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.a1596f27.chunk.css",
     "static/js/2.0f87184d.chunk.js",
     "static/css/main.fd190fe9.chunk.css",
-    "static/js/main.5c4d4dcd.chunk.js"
+    "static/js/main.26cf747b.chunk.js"
   ]
 }
