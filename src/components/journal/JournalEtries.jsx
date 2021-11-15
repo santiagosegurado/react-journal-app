@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux';
 import { JournalEntry } from './JournalEntry';
 
-export const JournalEtries = () => {
+export const JournalEtries = ({ setActiveMenu, activeMenu }) => {
     
     const { notes } = useSelector(state => state.notes)
     
@@ -14,7 +14,9 @@ export const JournalEtries = () => {
                     
                     <JournalEntry 
                         key={ note.id }
-                        { ...note } 
+                        { ...note }
+                        setActiveMenu={ setActiveMenu }
+                        activeMenu={ activeMenu } 
                     />
                 ))
             }

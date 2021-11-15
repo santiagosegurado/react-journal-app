@@ -3,7 +3,7 @@ import moment from 'moment'
 import { activeNote } from '../../actions/notes';
 import { useDispatch } from 'react-redux';
 
-export const JournalEntry = ({ id, title, body, date, url }) => {
+export const JournalEntry = ({ id, title, body, date, url, setActiveMenu, activeMenu }) => {
     
     const noteDate = moment(date);
 
@@ -18,6 +18,7 @@ export const JournalEntry = ({ id, title, body, date, url }) => {
 
     const handleEntryClick = () => {
         
+        setActiveMenu(!activeMenu)
         dispatch( activeNote(id, thisEntry) )
     }
 
@@ -40,7 +41,7 @@ export const JournalEntry = ({ id, title, body, date, url }) => {
                     </div>)
             }
             
-            <div className="journal__entry-body">
+            <div className="journal__entry-body" >
                 <p className="journal__entry-title">
                     {title}
                 </p>
